@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lyf/Desktop/MyRayTracer/color.h
+vec3.h
+/home/lyf/Desktop/MyRayTracer/vec3.h
+iostream
+-
+
+/home/lyf/Desktop/MyRayTracer/main.cpp
+iostream
+-
+color.h
+/home/lyf/Desktop/MyRayTracer/color.h
+vec3.h
+/home/lyf/Desktop/MyRayTracer/vec3.h
+ray.h
+/home/lyf/Desktop/MyRayTracer/ray.h
+
+/home/lyf/Desktop/MyRayTracer/ray.h
+vec3.h
+/home/lyf/Desktop/MyRayTracer/vec3.h
+
+/home/lyf/Desktop/MyRayTracer/vec3.h
+cmath
+-
+iostream
+-
+
